@@ -1,0 +1,11 @@
+body {
+    height: 100%;
+    background-color: rgba(15, 17, 21, 0.8);
+}
+
+header{
+    background-color: rgb(19, 19, 248);
+    color: #c97311;
+    font-size: 20px;
+    text-align: center;
+}
