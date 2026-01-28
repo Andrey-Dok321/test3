@@ -1,6 +1,6 @@
 body {
     height: 100%;
-    background-color: rgba(15, 17, 21, 0.8);
+    background: rgba(12, 41, 99, 0.8);
 }
 
 header{
@@ -8,4 +8,121 @@ header{
     color: #c97311;
     font-size: 20px;
     text-align: center;
+}
+
+.btn:active {
+    background: #c0c7d8;
+    color: #c97311;
+}
+
+.btn:hover {
+    background: #b1bcd4;
+    color: #c97311;
+}
+
+.btn {
+    appearance: none;
+    border: 1px solid aqua;
+    background: #12151b;
+    color: #e6eaf2;
+    padding: 10px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 160ms ease, transform 80ms ease, border-color 160ms ease;
+    margin: 30px;
+    text-decoration: none;
+  }
+
+.card {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0));
+    border: 1px solid;
+    border-radius: 16px;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    margin-bottom: 10px;
+    width: 500px;
+  }
+
+img{
+    width: 80%;
+    height: 250px;
+    margin: 30px;
+    border-radius: 15px;
+    border: 2px solid aquamarine;
+}
+
+.card__title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #c97311;
+}
+
+.text{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.katalog{
+    text-align: center;
+    font-size: 50px;
+    color: aqua;
+}
+
+.catalog{
+    display: flex;
+    width: 100%; max-width: 1100px; margin: 0 auto;
+    border: aqua;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn {
+    display: block;
+    width: 240px;
+    margin: 0 auto;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #3B8343;
+    color: white;
+    transition: 0.2s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.submit-btn:hover {
+    color: #c97311;
+}
+
+.cent{
+    text-align: center;
+}
+
+.item_PS{
+    margin-left: 40px;
+}
+
+a{
+    margin: 30px;
+}
+
+footer{
+    width: 100%;
+    height: 10%;
+    background-color: #d47739;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+footer p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 22px;
 }
